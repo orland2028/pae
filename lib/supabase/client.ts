@@ -6,12 +6,12 @@ import { createClient } from "@supabase/supabase-js"
 const SUPABASE_URL =
   process.env.NEXT_PUBLIC_SUPABASE_URL ??
   process.env.VITE_SUPABASE_URL ??
-  "https://obozbmqszuclsaiupqnw.supabase.co"
+  "https://rpyejdtxsuodagbvakhw.supabase.co"
 
 const SUPABASE_ANON_KEY =
   process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ??
   process.env.VITE_SUPABASE_ANON_KEY ??
-  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im9ib3pibXFzenVjbHNhaXVwcW53Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODI5MDY4NzEsImV4cCI6MjA5ODQ4Mjg3MX0.dSkLRe-B4fgKx1W1Z7NshN96bQA7nUchg01loGmJSWc"
+  "sb_publishable_NBm1oeErb_4freVoLcbE7g_vAFTaawb"
 
 // Em dev podemos usar a service role key definida em .env (SUPABASE_SERVICE_ROLE_KEY)
 // para contornar RLS durante desenvolvimento. NÃO recomendável em produção.
